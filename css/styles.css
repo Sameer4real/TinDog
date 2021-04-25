@@ -1,0 +1,199 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 3rem;
+  font-weight: 1000;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headers */
+
+.big-heading {
+  margin-bottom: 40px;
+  color: white;
+}
+.section-heading {
+  font-size: 3rem;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 10%;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navbar  */
+
+.navbar {
+  padding: 0;
+  padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Title Section  */
+
+#title {
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+.plan-name {
+  font-size: 2rem;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* fontawesome Icons */
+.fa-check-circle {
+  margin-bottom: 10px;
+  color: #ef8172;
+  font-size: 5rem;
+  transition: 0.5s color;
+  cursor: pointer;
+}
+.fa-bullseye {
+  margin-bottom: 10px;
+  color: #ef8172;
+  font-size: 5rem;
+  transition: 0.5s color;
+  cursor: pointer;
+}
+.fa-heart {
+  margin-bottom: 10px;
+  color: #ef8172;
+  font-size: 5rem;
+  transition: 0.5s color;
+  cursor: pointer;
+}
+.iconsHover:hover {
+  color: #ff4c68;
+  transition: 0.5s color;
+}
+
+/* Footer Section */
+.footerIcons {
+  margin: 20px 10px;
+  font-size: 1.2rem;
+}
+.white-section a {
+  text-decoration: none;
+  color: rgb(52, 58, 64);
+}
+
+@media (max-width: 1058px) and (min-width: 1029px) {
+  .btn {
+    margin: 5px;
+  }
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    margin-top: 20px;
+    position: static;
+    transform: rotate(0);
+  }
+  .btnFooter {
+    margin: 0;
+  }
+  .btn {
+    margin: 5px;
+  }
+}
